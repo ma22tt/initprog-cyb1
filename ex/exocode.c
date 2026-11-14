@@ -8,14 +8,15 @@ int main(){
 	scanf("%d", &code);
  
 	if(code == 0)
-		return(printf("state is %d 'arret' \n", code), 0);
+		printf("state is %d 'arret' \n", code);
 	else if(code == 1)
-		return(printf("state is %d 'actif' \n", code), 0);
+		printf("state is %d 'actif' \n", code);
 	else if(code == 2)
-		return(printf("state is %d 'maintenance \n", code), 0);
+		printf("state is %d 'maintenance \n", code);
 	else if(code == 3)
-		return(printf("state is %d 'defaut' \n", code), 0);
+		printf("state is %d 'defaut' \n", code);
 	else
 		return(printf("satte is INVALID \n"), 1);
 
+	return (0);
 }
